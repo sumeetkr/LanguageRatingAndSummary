@@ -1,5 +1,6 @@
-# LanguageRatingAndSummary
-## Regression Eval. Metrics
+# Rating the Language Appropriateness of Children’s Videos on YouTube
+We propose a machine-learning method that uses labeled data from a movie rating website (for parents to decide the appropriateness of a movie) to train a deep-learning model to rank movies. When trained using a multi-task method, the model additionally produces a summary explaining the basis for the language rating, highlighting words and phrases that may be possibly inappropriate for children. Using the suggested approach, we examine over 85,000 videos from the top 100 YouTube Kid's channels and contrast them with Disney/Pixar films that are certified for children viewing.  
+## Regression Eval. Metrics for Language Rating 
 | Model | MSE | RMSE | MAE | R<sup>2</sup> | E. Variance|
 |----------|----------|----------|----------|----------|----------|
 | Random Forest    | 3.59    | 1.89    | 1.27    | 0.51    | 0.51   |
@@ -11,7 +12,7 @@
 | BART Multitask Model    | 6.99    | 2.64    | 1.31    | 0.57    | 0.57    |
 
 
-## Summarization Eval. Metrics
+## Summarization Eval. Metrics for Language Description
 | Model             | RougeL | Precision | Recall | F1    |
 |-------------------|--------|-----------|--------|-------|
 | BART Summarization| 0.34   | 0.78      | 0.79   | 0.78  |
