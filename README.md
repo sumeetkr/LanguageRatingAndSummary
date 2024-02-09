@@ -15,9 +15,10 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 ## Summarization Eval. Metrics for Language Description
 | Model             | RougeL | Precision | Recall | F1    |
 |-------------------|--------|-----------|--------|-------|
-| BART Summarization| 0.34   | 0.78      | 0.79   | 0.78  |
-| GPT-3.5           | 0.0050 | 0.38      | 0.26   | 0.31  |
-| Multitask Model   | 0.0110 | 0.35      | 0.28   | 0.30  |
-
-
-
+| MPT-7B            | 0.0209 | 0.772     | 0.794  | 0.78  |
+|Stable LM Zephyr 3B| 0.0884 | 0.796     | 0.851  | 0.822 |
+| Mistral-7B        | 0.1007 | 0.783     | 0.822  | 0.802 |
+| GPT-3.5           | 0.1071 | 0.824     | 0.851  | 0.837 |
+| GPT-4             | 0.1388 | 0.822     | 0.865  | 0.842 |
+| Dolly 8B          | 0.1437 | 0.811     | 0.864  | 0.836 |
+| BART Summarization*| 0.1823 | 0.822 | 0.894 | 0.856 |
