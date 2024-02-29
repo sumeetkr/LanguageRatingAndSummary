@@ -8,7 +8,7 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 | Decision Tree    | 5.56    | 2.35    | 1.56    | 0.25    | 0.25    |
 | Support Vector Machine    | 4.70    | 2.16    | 1.62    | 0.36   | 0.36    |
 | BART for Regression    | 1.80   | 1.34    | 0.58    | 0.86    | 0.87   |
-| GPT-3.5 for Regression    | 18.99    | 4.35    | 3.66     | -1.44    | -1.25    |
+| GPT-3.5 for Regression | 6.56 | 2.56 | 1.92 | 0.11 | 0.12 |
 | BART Multitask Model    | 6.99    | 2.64    | 1.31    | 0.57    | 0.57    |
 
 
