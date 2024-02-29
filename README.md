@@ -3,13 +3,13 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 ## Regression Eval. Metrics for Language Rating 
 | Model | MSE | RMSE | MAE | R<sup>2</sup> | E. Variance|
 |----------|----------|----------|----------|----------|----------|
-| Random Forest    | 3.59    | 1.89    | 1.27    | 0.51    | 0.51   |
-| XGBoost   | 3.74    | 1.93   | 1.28   | 0.49    | 0.49    |
-| Decision Tree    | 5.56    | 2.35    | 1.56    | 0.25    | 0.25    |
-| Support Vector Machine    | 4.70    | 2.16    | 1.62    | 0.36   | 0.36    |
-| BART for Regression    | 1.80   | 1.34    | 0.58    | 0.86    | 0.87   |
 | GPT-3.5 for Regression | 6.56 | 2.56 | 1.92 | 0.11 | 0.12 |
 | BART Multitask Model    | 6.99    | 2.64    | 1.31    | 0.57    | 0.57    |
+| Decision Tree    | 5.56    | 2.35    | 1.56    | 0.25    | 0.25    |
+| Support Vector Machine    | 4.70    | 2.16    | 1.62    | 0.36   | 0.36    |
+| Random Forest    | 3.59    | 1.89    | 1.27    | 0.51    | 0.51   |
+| XGBoost   | 3.74    | 1.93   | 1.28   | 0.49    | 0.49    |
+| BART for Regression    | 1.80   | 1.34    | 0.58    | 0.86    | 0.87   |
 
 
 ## Summarization Eval. Metrics for Language Description
