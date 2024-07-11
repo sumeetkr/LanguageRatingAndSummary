@@ -31,3 +31,6 @@ As we are proposing `BART for Regression` model as the benchmark for predicting 
 ### BERT-Attention (Baseline 1)
 As mentioned in the paper this baseline model has considered from the `BERT-Attention` model from the paper [Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis and Natural Language Inference](https://aclanthology.org/N19-1035/). We have considered taking code from the paper where the authors has released the code opensource in [GitHub](https://github.com/avinashsai/BERT-Aspect). To run this code there are addtional files required to load the models which we have already shared in the Baseline directory. The code file for this baseline found in `Baseline_Models` directory
 
+### $LSA_{T}-DeBERTa$ (Baseline 2)
+This is another baseline model named $LSA_{T}-DeBERTa$ proposed in the paper [Modeling Aspect Sentiment Coherency via Local Sentiment Aggregation](https://aclanthology.org/2024.findings-eacl.13.pdf) which we have adopted to compare againist our proposed model. The authors of this paper built a model based on DeBERTa model with novel local sentiment aggregation (LSA) to the model. In LSA, the model extracts each individual apsects of the sentences and builts sentiment aggregation window. In this particular case of $LSA_T$ the model is employing local context focus-based aspect features.
+
