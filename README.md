@@ -28,7 +28,7 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 
 As we are proposing `BART for Regression` model as the benchmark for predicting the language ratings of the Kids-In-Mind datasets. We are comparing some of the baseline models in the similar area. We are comparing our model with three baseline models which are published in top language conferences.
 
-### BERT-Attention (Baseline 1)
+### $BERT-Attention$ (Baseline 1)
 As mentioned in the paper this baseline model has considered from the `BERT-Attention` model from the paper [Utilizing BERT Intermediate Layers for Aspect Based Sentiment Analysis and Natural Language Inference](https://aclanthology.org/N19-1035/). We have considered taking code from the paper where the authors has released the code opensource in [GitHub](https://github.com/avinashsai/BERT-Aspect). To run this code there are addtional files required to load the models which we have already shared in the Baseline directory. The code file for this baseline found in `Baseline_Models` directory
 
 ### $LSA_{T}-DeBERTa$ (Baseline 2)
