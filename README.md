@@ -22,6 +22,10 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 | GPT-4             | 0.1388 | 0.822     | 0.865  | 0.842 |
 | Dolly 8B          | 0.1437 | 0.811     | 0.864  | 0.836 |
 | BART Summarization*| 0.1823 | 0.822 | 0.894 | 0.856 |
+| BERT-Attention | 30.93 | 5.56 | 4.85 | -2.98 | 0.011 |
+| $LSA_T$-DeBERTa | 8.50 | 2.91 | 2.34 | -0.095 | 1.04-06 |
+
+
 
 
 ## Baseline Models for Rating
