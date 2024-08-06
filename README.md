@@ -10,6 +10,8 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 | Random Forest    | 3.59    | 1.89    | 1.27    | 0.51    | 0.51   |
 | XGBoost   | 3.74    | 1.93   | 1.28   | 0.49    | 0.49    |
 | BART for Regression    | 1.80   | 1.34    | 0.58    | 0.86    | 0.87   |
+| BERT-Attention | 30.93 | 5.56 | 4.85 | -2.98 | 0.011 |
+| $LSA_T$-DeBERTa | 8.50 | 2.91 | 2.34 | -0.095 | 1.04-06 |
 
 
 ## Summarization Eval. Metrics for Language Description
@@ -22,8 +24,6 @@ We propose a machine-learning method that uses labeled data from a movie rating 
 | GPT-4             | 0.1388 | 0.822     | 0.865  | 0.842 |
 | Dolly 8B          | 0.1437 | 0.811     | 0.864  | 0.836 |
 | BART Summarization*| 0.1823 | 0.822 | 0.894 | 0.856 |
-| BERT-Attention | 30.93 | 5.56 | 4.85 | -2.98 | 0.011 |
-| $LSA_T$-DeBERTa | 8.50 | 2.91 | 2.34 | -0.095 | 1.04-06 |
 
 
 
